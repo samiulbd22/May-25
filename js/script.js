@@ -230,12 +230,12 @@ const members = {
         post_payable        :3500,
         previous_paid       :5500,
         previous_dining_cost:2067,
-        payment             :{"01/05/25-Cash":4220,"08/05/25-Cash":1500},
+        payment             :{"01/05/25-Cash":4220,"08/05/25-Cash":1500,,"16/05/25-Cash":500},
         // running month
         stay_cost       :3500,
         garage_cost     :0,
         running_payable :4222,
-        running_paid    :5722,
+        running_paid    :6222,
         running_meal    :29,
         // method calling
         preMonth,
@@ -253,9 +253,9 @@ const members = {
         previous_dining_cost:1431,
         payment             :{"07/05/25-Cash":1000},
         // running month
-        stay_cost       :3000,
+        stay_cost       :0,
         garage_cost     :0,
-        running_payable :2040,
+        running_payable :-960,
         running_paid    :1000,
         running_meal    :26,
         // method calling
